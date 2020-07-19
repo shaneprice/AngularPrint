@@ -1,0 +1,20 @@
+
+html
+{
+    background-color: #FFFFFF; 
+    margin: 0px;  /* this affects the margin on the html before sending to printer */
+}
+
+body
+{
+    border: solid 1px blue ;
+    margin: 10mm 15mm 10mm 15mm; /* margin you want for the content */
+}
+table {
+border: solid 1px blue;
+}
+
+@media print{
+    @page { size: auto;  margin: 0mm!important; }
+    
+}

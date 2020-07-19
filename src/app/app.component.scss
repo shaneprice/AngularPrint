@@ -1,0 +1,19 @@
+app-print-view{
+    display: none;
+}
+
+
+
+  
+  @media print {
+    app-detail-view {
+      display: none;
+    }
+  
+    app-print-view {
+      display: block;
+     
+      
+    }
+  }
+
